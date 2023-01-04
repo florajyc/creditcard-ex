@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/58dbaa8dcf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Arimo&family=Lato&family=Poppins:wght@300&family=Sono:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="ctn">
+            <div class="doubleside">
+                <form action="#" method="post">
+                <!-- Front side -->
+                    <div class="front">
+                        <div class="form-box">
+                            <label for="name"></label>
+                            <input type="text" name="name" id="name" placeholder="Holder of card" required>
+                        </div>
+                        <div class="form-box">
+                            <label for="number"></label>
+                            <input type="text" name="number" id="number" placeholder="Number of card" required>
+                        </div>
+                        <span style="font-size: 10px;">VALID THRU</span>
+                        <div class="m-y-box">
+                            <div class="form-box">
+                                <label for="month"></label>
+                                <input type="text" name="month" id="month" placeholder="MM" required>
+                            </div>
+                            <div id="slash">
+                                <span>/</span>
+                            </div>
+                            <div class="form-box">
+                                <label for="year"></label>
+                                <input type="text" name="year" id="year" placeholder="YY" required>
+                            </div>
+                            <div class="cardicon">
+                                <i class="fa-brands fa-cc-mastercard"></i>
+                                <i class="fa-brands fa-cc-visa"></i></div>
+                        </div>
+                <!-- Back side -->
+                    <div class="back">
+                        <div class="back1"> </div>
+                        <div class="back2"> </div>
+                        <div class="form-box-cvc">
+                            <label for="cvc"></label>
+                            <input type="text" name="cvc" id="cvc" placeholder="CVC" required>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="btn-send">
+                <button>Send</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
